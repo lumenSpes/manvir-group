@@ -1,0 +1,263 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.max-width {
+    max-width: 1120px !important;
+}
+
+@media (max-width: 992px) {
+    .max-width {
+        padding: 0 3rem;
+    }
+}
+
+nav {
+    margin-top: 20px;
+}
+
+.nav-item:not(.nav-item:last-child) {
+    padding: 0 40px 0 0 !important;
+}
+
+.nav-link {
+    padding: 0 !important;
+    transition: all 0.75s ease-in-out;
+    color: black;
+}
+
+.nav-link:hover {
+    scale: 1.03;
+    color: rgb(63, 63, 63);
+}
+
+@media (max-width: 992px) {
+    .nav-link {
+        padding-top: 10px !important;
+    }
+}
+
+.header_top {
+    padding: 15px 0;
+}
+
+.footer_container {
+    background-image: linear-gradient(to bottom, #11162e, #1e1e1e);
+    margin-top: 50px;
+}
+
+.footer {
+    /* padding-top: 20px; */
+    color: #fff;
+}
+
+@media(max-width:768px){
+    .footer{
+        padding-top: 20px;
+    }
+}
+
+.footer_short_text {
+    text-align: justify;
+    padding: 30px 0;
+}
+
+.footer_section_title {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer_links_container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer_links_container > a {
+    text-decoration: none;
+}
+
+.footer_links_item {
+    color: #fff;
+    transition: all 0.75s ease-in-out;
+}
+
+.footer_links_item:hover {
+    color: #b3b3b3;
+}
+
+.support_links_container {
+    margin-top: 15px;
+}
+
+.footer_seperator {
+    color: #fff !important;
+    z-index: 5;
+    max-width: 1180px;
+}
+
+.footer_bottom {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+    .footer_bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.footer_bottom > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.autoplay {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.hero_carousel_img {
+    max-height: 614px;
+    object-fit: cover;
+}
+
+.hero_carousel_overlay {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.hero_carousel_text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero_carousel_btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    background-color: #275599;
+    opacity: 80%;
+    padding: 12px 45px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .hero_carousel_text,
+    .hero_carousel_btn {
+        font-size: 24px;
+    }
+
+    .hero_carousel_btn {
+        padding: 8px 25px;
+    }
+}
+
+.hero_carousel_btn:hover{
+    opacity: 100%;
+}
+
+.autoplay {
+    position: relative;
+}
+
+.hero_carousel_prev_arr {
+    position: absolute;
+    top: 40%;
+    left: 60px;
+    z-index: 5;
+    cursor: pointer;
+    transition: all 0.75s ease-in-out;
+}
+
+.hero_carousel_next_arr {
+    position: absolute;
+    top: 40%;
+    right: 60px;
+    z-index: 5;
+    cursor: pointer;
+    transition: all 0.75s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .hero_carousel_prev_arr {
+        display: none !important;
+    }
+
+    .hero_carousel_next_arr {
+        display: none !important;
+    }
+}
+
+.hero_carousel_prev_arr:hover, .hero_carousel_next_arr:hover{
+    fill: #b3b3b3;
+    scale: 1.2;
+}
+
+.tiny_section_title{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2E2CB0;
+    text-transform: uppercase;
+}
+
+.section_main_title{
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    color: #285599;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.service_catelog_container{
+    margin-top: 20px;
+}
+
+.service_catalog{
+    border-radius: 50%;
+    background-color: #275599;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_catalog_title{
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.service_catalog_description{
+    text-align: justify;
+}
+
+.achievements{
+    background-image: url('../images/success-2.jpg');
+}
