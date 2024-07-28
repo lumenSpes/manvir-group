@@ -1,0 +1,48 @@
+.product_banner{
+    z-index: -1;
+}
+
+.product_overlay {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.product_banner_title {
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    z-index: 5;
+    top: 0;
+    left: 0;
+}
+
+.product_catalog_img{
+    max-width: 265px;
+    max-height: 400px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.75s ease-in-out;
+}
+
+.product_catalog_img:hover{
+    scale: 1.02;
+}
+
+.products_section{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}

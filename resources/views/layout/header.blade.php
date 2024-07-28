@@ -64,7 +64,7 @@
                             <a class="nav-link fw-semibold" href="#">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-semibold" href="#">Products</a>
+                            <a class="nav-link fw-semibold" href="/products">Products</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link fw-semibold" href="#">Gallery</a>

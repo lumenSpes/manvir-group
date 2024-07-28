@@ -17,7 +17,7 @@
 }
 
 nav {
-    margin-top: 20px;
+    margin: 20px 0;
 }
 
 .nav-item:not(.nav-item:last-child) {
@@ -47,7 +47,7 @@ nav {
 
 .footer_container {
     background-image: linear-gradient(to bottom, #11162e, #1e1e1e);
-    margin-top: 50px;
+    margin-top: 50px !important;
 }
 
 .footer {
@@ -445,7 +445,7 @@ p {
 .home_management_slider{
     overflow: hidden;
     margin-top: 50px;
-    margin-bottom: 50px !important;
+    padding-bottom: 50px !important;
 }
 
 .home_management_right_arr, .home_management_left_arr{
