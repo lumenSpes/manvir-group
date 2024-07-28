@@ -1,6 +1,6 @@
 <div class="footer_container">
     <div class="container max-width">
-        <footer class="footer row row-cols-1 row-cols-md-4 g-sm-5">
+        <footer class="footer row row-cols-1 row-cols-md-3 row-cols-lg-4 g-5 g-md-3">
             <div class="col">
                 <img height="111px" width="117px" src="{{asset('assets/images/footer-logo-removebg-preview.png')}}" alt="brand logo">
                 <p class="footer_short_text">
