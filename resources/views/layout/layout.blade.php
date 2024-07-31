@@ -19,6 +19,7 @@
     {{-- custom css --}}
     <link rel="stylesheet" href="{{ asset('assets/styles/home.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/styles/products.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/styles/gallery.css') }}">
 
     {{-- slick carousel --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
@@ -70,8 +71,6 @@
                     settings: {
                         slidesToShow: 3,
                         slidesToScroll: 1,
-                        infinite: true,
-                        dots: true
                     }
                 },
                 {

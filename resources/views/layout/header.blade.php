@@ -67,7 +67,7 @@
                             <a class="nav-link fw-semibold" href="/products">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fw-semibold" href="#">Gallery</a>
+                            <a class="nav-link fw-semibold" href="/gallery">Gallery</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link fw-semibold" href="#">Contact Us</a>

@@ -47,7 +47,7 @@ nav {
 
 .footer_container {
     background-image: linear-gradient(to bottom, #11162e, #1e1e1e);
-    margin-top: 50px !important;
+    /* margin-top: 50px !important; */
 }
 
 .footer {
@@ -465,4 +465,10 @@ p {
     top: 50%;
     left: 0;
     cursor: pointer;
+}
+
+.home_management_right_arr:hover, .home_management_left_arr:hover{
+    scale: 1.02;
+    color: #333;
+    border-color: #333;
 }
