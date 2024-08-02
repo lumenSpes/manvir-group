@@ -1,0 +1,25 @@
+.privacy_policy{
+    margin-top: 50px;
+}
+
+.privacy_policy_item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.privacy_policy_title{
+    font-size: 24px;
+    font-weight: 800;
+    color: #285599;
+    text-transform: capitalize;
+}
+
+.privacy_policy_description{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000;
+    font-weight: 400;
+}

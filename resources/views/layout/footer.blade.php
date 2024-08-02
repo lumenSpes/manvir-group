@@ -9,10 +9,10 @@
             </div>
             <div class="col footer_links_container">
                 <p class="footer_section_title">COMPANY</p>
-                <a class="footer_links_item" href="#">About Us</a>
-                <a class="footer_links_item" href="#">Privacy Policy</a>
-                <a class="footer_links_item" href="#">Terms & Conditions</a>
-                <a class="footer_links_item" href="#">Contact Us</a>
+                <a class="footer_links_item" href="/about-us">About Us</a>
+                <a class="footer_links_item" href="/privacy-policy">Privacy Policy</a>
+                <a class="footer_links_item" href="/terms-and-condetions">Terms & Conditions</a>
+                <a class="footer_links_item" href="/contact-us">Contact Us</a>
             </div>
             <div class="col footer_links_container">
                 <p class="footer_section_title">SUPPORT</p>

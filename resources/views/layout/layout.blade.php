@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Manvir Group</title>
+
+    {{-- favicon --}}
+    <link rel="shortcut icon" href="{{ asset('assets/images/logo.svg') }}" type="image/x-icon">
+
     {{-- bootstrap --}}
     <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.min.css') }}">
 
@@ -21,6 +25,9 @@
     <link rel="stylesheet" href="{{ asset('assets/styles/products.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/styles/gallery.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/styles/about_us.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/styles/contact_us.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/styles/privacy_policy.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/styles/terms_and_condetions.css') }}">
 
     {{-- slick carousel --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />

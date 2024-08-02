@@ -21,3 +21,15 @@ Route::get('/gallery', function () {
 Route::get('/about-us', function () {
     return view('about_us');
 });
+
+Route::get('/contact-us', function () {
+    return view('contact_us');
+});
+
+Route::get('/privacy-policy', function () {
+    return view('privacy_policy');
+});
+
+Route::get('/terms-and-condetions', function () {
+    return view('terms_and_condetions');
+});
