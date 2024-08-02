@@ -17,3 +17,7 @@ Route::get('/products', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 });
+
+Route::get('/about-us', function () {
+    return view('about_us');
+});

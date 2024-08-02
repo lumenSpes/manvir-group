@@ -42,8 +42,10 @@
     <section>
         <p class="tiny_section_title text-center">Services</p>
         <h3 class="section_main_title">What Do we offer?</h3>
-        <p class="service_mini_description text-md-center text-justify px-1 mx-md-0">Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="container max-width">
+            <p class="service_mini_description text-md-center text-justify px-1 mx-md-0">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
         <div class="row row-cols-md-2 row-cols-lg-3 row-cols-1 g-5 container max-width mx-auto service_catelog_container">
             <div class="col">
                 <div class="d-flex flex-column align-items-center gap-4">
@@ -159,7 +161,7 @@
         <h3 class="about_us_title">Learn more about us</h3>
         <div class="row row-cols-1 row-cols-lg-2 g-4 g-lg-0 container max-width mx-auto">
             <div class="col">
-                <img class="about_us_img" src="{{ asset('assets/images/3513.jpg') }}" alt="about">
+                <img class="home_about_us_img" src="{{ asset('assets/images/3513.jpg') }}" alt="about">
             </div>
             <div class="col">
                 <p class="tiny_section_title p-0 about_us_tiny_title">about us</p>
@@ -217,7 +219,9 @@
     {{-- management strart --}}
     <section class="home_management">
         <h3 class="management_main_title">Meet the management</h3>
-        <p class="management_short_description">Lorem ipsum dolor sit amet, sit el consectetur adipiscing elit. Integer nec elit  odio.</p>
+        <div class="container max-width">
+            <p class="management_short_description">Lorem ipsum dolor sit amet, sit el consectetur adipiscing elit. Integer nec elit  odio.</p>
+        </div>
         <div class="container max-width">
             <div class="home_management_slider position-relative">
                 <div class="d-flex flex-column align-items-center gap-2">

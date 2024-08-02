@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="{{ asset('assets/styles/home.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/styles/products.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/styles/gallery.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/styles/about_us.css') }}">
 
     {{-- slick carousel --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
@@ -74,7 +75,7 @@
                     }
                 },
                 {
-                    breakpoint: 600,
+                    breakpoint: 992,
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 1

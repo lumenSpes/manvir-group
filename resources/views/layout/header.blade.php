@@ -61,7 +61,7 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link fw-semibold" href="#">About Us</a>
+                            <a class="nav-link fw-semibold" href="/about-us">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link fw-semibold" href="/products">Products</a>

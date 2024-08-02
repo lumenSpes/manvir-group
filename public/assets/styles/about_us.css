@@ -1,0 +1,45 @@
+.about_us_container{
+    margin-top: 50px;
+}
+
+@media(max-width:700px){
+    .about_us_container{
+        gap: 30px;
+    }
+}
+
+.about_us_section{
+    margin-bottom: 30px;
+}
+
+.about_us_heading{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.about_us_description{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.about_us_img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    min-width: 550px;
+    min-height: 387px;
+    display: block;
+}
+
+@media(max-width:1024px){
+    .about_us_img{
+        min-width: auto;
+        min-height: auto;
+    }
+}
+
+.about_team{
+    margin: 0;
+}

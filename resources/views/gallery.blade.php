@@ -33,12 +33,6 @@
                 <img class="gallery_img" src="{{ asset('assets/images/dress-1.webp') }}" alt="">
                 <img class="gallery_img" src="{{ asset('assets/images/dress-3.webp') }}" alt="">
             </div>
-            <div class="gallery-item">
-                <img class="gallery_img" src="{{ asset('assets/images/dress-4.webp') }}" alt="">
-                <img class="gallery_img" src="{{ asset('assets/images/dress-1.webp') }}" alt="">
-                <img class="gallery_img" src="{{ asset('assets/images/dress-3.webp') }}" alt="">
-                <img class="gallery_img" src="{{ asset('assets/images/gallery-dress-2.png') }}" alt="">
-            </div>
         </div>
     </div>
 </section>
